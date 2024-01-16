@@ -33,6 +33,28 @@ I also encourage you to use comments (`#`) to help you identify each item (I pro
 
 ```{r simple-calculations}
 # Item 1
+# Adding two numbers 2 and 5
+2+5 
+
+
+# Item 2
+# Printing the range of number from 1 to 9 and assigning it to the variable int_vect
+int_vect <- 1:9
+int_vect
+
+
+# Item 3
+# Printing alphabets from A to Q using LETTERS function and assigning it to the char_vect variable
+char_vect <- (LETTERS[1:17])
+char_vect
+  
+
+
+# Item 4
+# This returns the count the number of items after D letter, 
+count_after_d <- sum(char_vect > "D")
+count_after_d
+
 
 ```
 
